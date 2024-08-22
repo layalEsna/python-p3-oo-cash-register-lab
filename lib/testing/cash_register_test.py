@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 
 from cash_register import CashRegister
@@ -19,6 +20,9 @@ class TestCashRegister:
         '''takes one optional argument, a discount, on initialization.'''
         assert(self.cash_register.discount == 0)
         assert(self.cash_register_with_discount.discount == 20)
+
+
+        
 
     def test_total_attribute(self):
         '''sets an instance variable total to zero on initialization.'''
